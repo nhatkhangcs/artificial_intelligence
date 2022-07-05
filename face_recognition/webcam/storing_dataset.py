@@ -4,7 +4,8 @@ import pickle
 import cv2
 import os
  
-imagePaths = list(paths.list_images("C:\\Users\\HP\\Desktop\\AI\\Images"))
+#Include the path to the dataset at "image_path_here" (this is kind of a folder that contains multiple folders of different persons). <br>
+imagePaths = list(paths.list_images("image_path_here"))
 print(imagePaths)
 knownEncodings = []
 knownNames = []
